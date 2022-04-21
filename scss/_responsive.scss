@@ -56,6 +56,15 @@
   }
 }
 
+@mixin md-large {
+  @media only screen and (max-width: 1060px){
+    .about-content {
+      padding: 0;
+      text-align: center;
+    }
+  }
+}
+
 @mixin tablet {
   @media only screen and (max-width: 850px){
     .home {
