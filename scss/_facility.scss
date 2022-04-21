@@ -1,0 +1,39 @@
+@import "variables";
+@import "mixins";
+
+.facility {
+  padding: 5rem 0;
+}
+
+.heading-content {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.heading-img {
+  img{
+    height: 3rem;
+  }
+}
+
+.card-container{
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 240px;
+  gap: 1rem;
+  text-align: center;
+}
+
+.card{
+  p{
+    margin-top: 1rem;
+    padding: 0 1rem;
+    font-size: clamp(.8rem, 3vw, 1rem);
+  }
+}
+
+.card-title{
+  font-size: clamp(1.2rem, 4vw, 1.4rem);
+  text-transform: capitalize;
+}
