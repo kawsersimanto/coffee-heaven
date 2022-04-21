@@ -67,9 +67,17 @@
 
 @mixin tablet {
   @media only screen and (max-width: 850px){
-    .home {
 
-      // justify-content: center;
+    .container-2{
+      width: 100%;
+    }
+
+    .gallery-container{
+      grid-template-columns: 1fr;
+      grid-auto-rows: 1fr;
+    }
+
+    .home {
       text-align: center;
       p{
         padding: 0;
