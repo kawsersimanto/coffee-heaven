@@ -8,7 +8,7 @@ header{
 
 .navbar {
   width: 100%;
-  padding: 1rem 10%;
+  padding: .8rem 10%;
   @include flex;
   background-color: $white-color;
   box-shadow: $shadow;
@@ -29,7 +29,7 @@ header{
   position: relative;
   // @include border;
   img{
-    height: 4.5rem;
+    height: 4rem;
   }
 }
 
@@ -82,7 +82,8 @@ header{
 
   a{
     margin: 0 2rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
     color: $black-color;
     text-decoration: none;
     text-transform: capitalize;

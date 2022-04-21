@@ -9,3 +9,10 @@
 @mixin border {
   border: 1px solid salmon;
 }
+
+@mixin set-background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
