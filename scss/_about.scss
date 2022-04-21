@@ -3,6 +3,7 @@
 @import "responsive";
 
 .about {
+  padding-bottom: 5rem;
 }
 
 .about-container{
@@ -18,11 +19,7 @@
 .about-content {
   padding-left: 8rem;
   flex: 1 1 30rem;
-  h2{
-    // padding-left: 8rem;
-  }
   p{
-    
     margin: 1.5rem 0;
   }
 }
