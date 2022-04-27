@@ -92,3 +92,11 @@
 
   }
 }
+
+@mixin xxl {
+  @media only screen and (max-width: 1675px){
+    .team-container{
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+}
