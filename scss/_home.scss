@@ -39,11 +39,9 @@
   background-color: $black-color;
   border-radius: .2rem;
   transition: font-size .3s ease 0s;
-  z-index: 0;
   &:hover{
     cursor: pointer;
-    transform: scale(1.05);
-    z-index: 1;
+    background-color: $primary-color;
   }
 }
 
