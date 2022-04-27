@@ -1,0 +1,25 @@
+@import "variables";
+
+.contact-title{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-size: clamp(1.2rem, 5vw, 1.8rem);
+}
+
+.contact-form{
+  padding: .5rem 1.2rem 5rem 1.2rem;
+  text-align: center;
+  border: 1px solid $black-color;
+  input{
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 1rem 0 1rem 1rem;
+    border: 1px solid $black-color;
+    font-family: 'Nunito', sans-serif;
+    font-size: clamp(.8rem, 4vw, 1.1rem);
+  }
+  button{
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+}
